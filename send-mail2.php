@@ -5,7 +5,7 @@
 
 	$para = 'sistemas@parisautos.com.ar';
 
-	$titulo = 'Mensaje desde la web - ParisPeugeot.com.ar';
+	$titulo = 'Mensaje desde la web - ParisCitroen.com.ar';
 	$mensaje = '<html>';
 	$mensaje = '<body>';
 	$mensaje = 'Mensaje desde formulario WEB:';

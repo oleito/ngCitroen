@@ -36,8 +36,11 @@ a:hover {
 .bg-peugeot2 {
   background-color: #133d5f;
 }
-.bg-peugeot3 {
-  background-color: #152848 !important;
+.bg-citroen3 {
+  background-color: #EB6428 !important;
+}
+.bg-citroen4 {
+  background-color: #F1F0F0 !important;
 }
 .redes {
   background-color: #3c3947;
@@ -100,8 +103,12 @@ a:hover {
   background-color: #0062c5 !important;
 }
 
+.btn-citro {
+  background-color: #9D0605 !important;
+}
+
 #home {
-  background-color: rgb(76, 145, 170);
+  background-color:#47BEAD;
   color: #fff;
 }
 
@@ -127,4 +134,8 @@ a:hover {
 
 .fa-instagram {
   color: #c1307f;
+}
+
+.hr-citroen {
+  border-color: #9D0605;
 }
