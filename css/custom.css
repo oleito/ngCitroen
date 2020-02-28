@@ -37,10 +37,10 @@ a:hover {
   background-color: #133d5f;
 }
 .bg-citroen3 {
-  background-color: #EB6428 !important;
+  background-color: #eb6428 !important;
 }
 .bg-citroen4 {
-  background-color: #F1F0F0 !important;
+  background-color: #f1f0f0 !important;
 }
 .redes {
   background-color: #3c3947;
@@ -86,8 +86,8 @@ a:hover {
 }
 .btn-ficha {
   color: #fff;
-  background-color: #007edb !important;
-  border-bottom: 1px solid #0062c5;
+  background-color: #9d0605 !important;
+  /* border-bottom: 1px solid #0062c5; */
 }
 .btn-test {
   background-color: #007be0 !important;
@@ -100,15 +100,15 @@ a:hover {
 }
 .btn-ficha:hover {
   color: #fff;
-  background-color: #0062c5 !important;
+  background-color: #796f6e !important;
 }
 
 .btn-citro {
-  background-color: #9D0605 !important;
+  background-color: #9d0605 !important;
 }
 
 #home {
-  background-color:#47BEAD;
+  background-color: #47bead;
   color: #fff;
 }
 
@@ -137,5 +137,9 @@ a:hover {
 }
 
 .hr-citroen {
-  border-color: #9D0605;
+  border-color: #9d0605;
+}
+
+.card-body {
+  background-color: #f1f0f0;
 }

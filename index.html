@@ -70,21 +70,28 @@
 </head>
 
 <body data-spy="scroll" data-target="#sticky-menu" data-offset="0">
+
 	<!-- Load Facebook SDK for JavaScript -->
 	<div id="fb-root"></div>
 	<script>
-		(function (d, s, id) {
-			var js,
-				fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1";
-			fjs.parentNode.insertBefore(js, fjs);
-		})(document, "script", "facebook-jssdk");
-	</script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v6.0'
+			});
+		};
 
-	<div class="fb-customerchat" attribution="install_email" page_id="739375842842061"></div>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat" attribution="install_email" page_id="1826823904305152">
+	</div>
 	<!--./Load Facebook SDK for JavaScript -->
 
 	<!-- Google Tag Manager (noscript) -->
@@ -179,7 +186,7 @@
 								<div class="btn-group-vertical" role="group" aria-label="Basic example">
 									<a href="https://www.facebook.com/PeugeotSanLuisParis/" target="_blank" class="btn btn-light  sociales"><i
 											class="fab fa-facebook-square"></i></a>
-									<a href="https://api.whatsapp.com/send?phone=5492664303957&text=Hola!%20Tengo%20una%20consulta!" target="_blank"
+									<a href="https://api.whatsapp.com/send?phone=5492664316521&text=Hola!%20Tengo%20una%20consulta!" target="_blank"
 										class="btn btn-light  sociales"><i class="fab fa-whatsapp-square"></i></a>
 									<a href="https://www.instagram.com/parisautos/" target="_blank" class="btn btn-light  sociales"><i class="fab fa-instagram"></i></a>
 								</div>
@@ -208,7 +215,7 @@
 							<img class="card-img-top" src="assets/modelos/c4_lounge.jpg" alt="mdelo de auto" />
 							<div class="card-body py-1">
 								<h6 class="d-flex justify-content-between align-items-center px-1 pt-2">
-									<strong>C4 Loune</strong>
+									<strong>C4 Lounge</strong>
 									<a target="_blank" class="d-flex align-items-center" href="assets/fichas/FICHA_TECNICA_C4_LOUNGE.pdf">
 										<button type="button" class="btn btn-sm btn-light btn-ficha rounded-0">Ficha tecnica</button>
 									</a>
@@ -322,12 +329,12 @@
 						<div class="col-md-3 d-block marca-card pt-5 pb-4">
 							<img class="border border-secondary rounded" src="assets/logos/tradicional.jpg" />
 							<h3>Venta Tradicional</h3>
-							<h4>266 4 303957</h4>
+							<h4>266 4 316521</h4>
 						</div>
 						<div class="col-md-3 d-block marca-card pt-5 pb-4">
-							<img class="border border-secondary rounded" src="assets/logos/autoplan.jpg" />
+							<img class="border border-secondary rounded" src="assets/logos/circulo.jpg" />
 							<h3>Plan de Ahorro</h3>
-							<h4>266 450 3609</h4>
+							<h4>266 4 503609</h4>
 						</div>
 						<div class="col-md-3 d-block marca-card pt-5 pb-4">
 							<img class="border border-secondary rounded" src="assets/logos/empresas.jpg" />
@@ -365,14 +372,14 @@
 			<!-- CONTACTO -->
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 text-center pl-md-0 text-white" style="background-color: #007edb">
+					<div class="col-md-4 text-center pl-md-0 text-white" style="background-color: #EB6428">
 						<h2 class="mt-2">CONTACTANOS</h2>
 						<hr class="mb-1 mt-3 d-inline-block mx-auto w-25" />
 						<h4><small>En</small> San Luis</h4>
 						<address>
 							Av. Santos Ortiz 1228<br />
 							San Luis - Argentina<br />
-							Tel. 266 4 438343<br />
+							Tel. 266 4 438383<br />
 							<a class="telef-wp" href="https://api.whatsapp.com/send?phone=5492664303957&text=Hola!%20Tengo%20una%20consulta!">
 								Cel. 266 4 303957 <i class="fab fa-whatsapp txt-mas"></i></a><br />
 						</address>
