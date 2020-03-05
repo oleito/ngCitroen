@@ -3,7 +3,8 @@
 	$tel = $_POST['tel'];
 	$message = $_POST['message'];
 
-	$para = 'sistemas@parisautos.com.ar';
+	$para = 'mauro.soratto@parisautos.com.ar';
+	$paraCC = 'sistemas@parisautos.com.ar';
 
 	$titulo = 'Mensaje desde la web - ParisCitroen.com.ar';
 	$mensaje = '<html>';
@@ -20,6 +21,7 @@ $cabeceras = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 'X-Mailer: PHP/' . phpversion();
 
 mail($para, $titulo, $mensaje, $cabeceras);
+mail($paraCC, $titulo, $mensaje, $cabeceras);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
