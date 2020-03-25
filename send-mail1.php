@@ -2,6 +2,7 @@
 	$name = $_POST['nombre'];
 	$tel = $_POST['tel'];
 	$message = $_POST['message'];
+	$email = $_POST['email'];
 
 	$para = 'mauro.soratto@parisautos.com.ar';
 	$paraCC = 'sistemas@parisautos.com.ar';
@@ -11,6 +12,7 @@
 	$mensaje = '<body>';
 	$mensaje = 'Mensaje desde formulario WEB:';
 	$mensaje .= '<br> Nombre: ' . $name . "\r\n";
+	$mensaje .= '<br> Email: ' . $email . "\r\n";
 	$mensaje .= '<br> Telefono: ' . $tel . "\r\n";
 	$mensaje .= '<br> Mensaje: ' . $message . "\r\n";
 	$mensaje .= '</body>';
