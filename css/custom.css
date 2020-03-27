@@ -143,3 +143,14 @@ a:hover {
 .card-body {
   background-color: #f1f0f0;
 }
+
+.vendedores-contacto a {
+  font-size: 2em;
+  color: #3C3947;
+}
+.vendedores-contacto a i:hover {
+  color: #006cbc;
+}
+.vendedores-contacto a  :hover {
+  color: #006cbc;
+}
