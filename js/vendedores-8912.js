@@ -4,10 +4,10 @@ var appVendedores = new Vue({
     vendedores: [
       {
         img: "Agonzales.jpg",
-        nombre: "Alejandra Gonzales",
+        nombre: "Alejandra Gonzalez",
         sector: "Ejecutivo de ventas",
         cel: "2664619109",
-        email: "alejandra.gonzales@parisautos.com.ar"
+        email: "alejandra.gonzalez@parisautos.com.ar"
       },
       {
         img: "Saguello.jpg",
@@ -15,6 +15,13 @@ var appVendedores = new Vue({
         sector: "Ejecutivo de ventas",
         cel: "2664364639",
         email: "silvana.aguello@parisautos.com.ar"
+      }, 
+      {
+        img: "Slucero.jpg",
+        nombre: "Soledad Lucero",
+        sector: "Ejecutivo de ventas",
+        cel: "2664883826",
+        email: "soledad.lucero@parisautos.com.ar"
       },
       {
         img: "Pfernandez.jpg",
