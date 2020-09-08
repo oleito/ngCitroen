@@ -10,18 +10,18 @@ var appVendedores = new Vue({
         email: "alejandra.gonzalez@parisautos.com.ar"
       },
       {
-        img: "Saguello.jpg",
-        nombre: "Silvana Arguello",
-        sector: "Ejecutivo de ventas",
-        cel: "2664364639",
-        email: "silvana.aguello@parisautos.com.ar"
-      }, 
-      {
         img: "Slucero.jpg",
         nombre: "Soledad Lucero",
         sector: "Ejecutivo de ventas",
         cel: "2664883826",
         email: "soledad.lucero@parisautos.com.ar"
+      },
+      {
+        img: "Saguello.jpg",
+        nombre: "Silvana Arguello",
+        sector: "Ejecutivo de ventas",
+        cel: "2664364639",
+        email: "silvana.aguello@parisautos.com.ar"
       },
       {
         img: "Pfernandez.jpg",
